@@ -6,7 +6,7 @@ An engine that searches for papers on Google Scholar based on keywords extracted
 
 - [rake-nltk](https://github.com/csurfer/rake-nltk)
 - [TextRank](https://github.com/davidadamojr/TextRank)
-- [Scholar](https://github.com/ckreibich/scholar.py) - already included, with a little change, just to return the results
+- [Scholar](https://github.com/ckreibich/scholar.py) - already included and with a little change, just to return the results
 
 ## Components
 
