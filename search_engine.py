@@ -17,17 +17,12 @@ def main():
     return format_results(articles)
 
 def format_results(articles):
-    formated_articles = []
+    formated_articles = ""
 
     for article in articles:
-        line = ''
-
-        line += 'Title: {}{}'.format(article.get('Title'), ',').lower().title()
-        line += 'Year: {}{}'.format(article.get('Year'), ',')
-        line += 'Citations {}{}'.format(article.get('Citations'), ',')
-        line += 'PDF Link {}{}'.format(article.get('URL'), ';')
-
-        formated_articles.append(line)
+        formated_articles += "{}{}".format(article.get('Title'), ",").lower().title()
+        formated_articles += "{}{}".format(article.get('Year'), ",")
+        formated_articles += "{}{}".format(article.get('URL'), ";")
 
     print formated_articles
 
