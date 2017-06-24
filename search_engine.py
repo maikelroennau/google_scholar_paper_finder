@@ -29,7 +29,7 @@ def format_results(articles):
 
         formated_articles.append(line)
 
-    return formated_articles
+    print formated_articles
 
 
 if __name__ == '__main__':
