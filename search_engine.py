@@ -14,7 +14,7 @@ def main():
 
     articles = scholar.main()
 
-    print format_results(articles)
+    return format_results(articles)
 
 def format_results(articles):
     formated_articles = []
@@ -25,7 +25,7 @@ def format_results(articles):
         line += 'Title: {}{}'.format(article.get('Title'), ',').lower().title()
         line += 'Year: {}{}'.format(article.get('Year'), ',')
         line += 'Citations {}{}'.format(article.get('Citations'), ',')
-        line += 'PDF Link {}{}'.format(article.get('PDF Link'), ';')
+        line += 'PDF Link {}{}'.format(article.get('URL'), ';')
 
         formated_articles.append(line)
 

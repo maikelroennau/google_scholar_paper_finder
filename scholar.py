@@ -338,7 +338,7 @@ class ScholarArticle(object):
             if item[0] is not None:
                 # res.append(fmt % (item[1], item[0]))
 
-                if item[1] in ('Title', 'Year', 'Citations', 'PDF link'):
+                if item[1] in ('Title', 'Year', 'Citations', 'URL'):
                     article[item[1]] = item[0]
 
         found_articles.append(article)
