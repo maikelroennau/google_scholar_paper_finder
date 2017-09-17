@@ -17,3 +17,10 @@ An engine that searches for papers on Google Scholar based on keywords extracted
 ## Usage
 
 - python search.py text.txt
+
+### Author
+
+**Maikel Maciel Rönnau**  
+*Computer Scientist  
+maikel.ronnau@ulbra.edu.br  
+[Linkedin](https://br.linkedin.com/in/maikelronnau)*
