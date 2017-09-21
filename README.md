@@ -16,7 +16,7 @@ An engine that searches for papers on Google Scholar based on keywords extracted
 
 ## Usage
 
-- python search.py text.txt
+`python search.py text.txt`
 
 ### Author
 
